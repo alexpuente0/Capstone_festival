@@ -3,7 +3,7 @@
 # Capstone Project #1
 
 > This project is a showcase of the habilities learned during the portal weeks at micorverse.
-> Its centered around a Music Fest to save the world.
+> Its centered around a Conference to save the world.
 
 ## Built With
 
