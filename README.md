@@ -1,10 +1,6 @@
-# Capstone_festival
-
-Microverse Capstone Project 1
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# CApstone Project #1
+# Capstone Project #1
 
 > This project is a showcase of the habilities learned during the portal weeks at micorverse.
 > Its centered around a concert and artists that would be preforming on it.
