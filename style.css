@@ -119,8 +119,13 @@ a {
 .header1 {
   color: #ec5242;
   font-family: "Cocogoose";
-  font-size: 3rem;
+  font-size: 1rem;
   padding-left: 15px;
+}
+
+.logo {
+  width: 380px;
+  align-self: center;
 }
 
 .above-h2 {
@@ -160,6 +165,7 @@ a {
 .divisionline1 {
    border: 1px solid #ec5242; 
 }
+
 .program ul {
   display: flex;
   flex-direction: column;
@@ -197,6 +203,149 @@ a {
   font-weight: 400;
   font-size: 12px;
   width: 150px;
+}
+
+.tickets-btn {
+  background-color: #ec5242;
+   font-family: "Lato";
+  font-weight: 200;
+  font-size: 18px;
+  color:#fff;
+  border: none;
+  width: 300px;
+  height: 60px;
+  margin: 35px 0;
+}
+
+/* speakers */
+
+.mainspeakers h2 {
+margin: 50px 0 10px 0; 
+text-align: center;
+font-family: "Lato";
+font-weight: 500;
+font-size: 25px;
+}
+
+.cardscontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  align-content: center;
+  padding: 0 25px;
+}
+
+.cardscontainer {
+  margin-top: 50px;
+}
+.cardscontainer li{
+  display: flex;
+}
+
+.cdfront {
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+  filter: drop-shadow(-10px -10px 2px #d3d3d3 );
+  }
+
+.description h3 {
+  font-family: "Lato";
+}
+
+.description h4 {
+  font-family: "Lato";
+  color: #ec5242;
+}
+
+.description p {
+    font-family: "Lato";
+    font-size: 12px;
+}
+
+/* show more or less */
+
+.content {
+  overflow: hidden;
+}
+
+.content.gradient {
+mask-image: linear-gradient(rgb(114, 114, 114), rgba(255,255,255,0));
+}
+
+.content.maxHeight {
+  max-height: 250px;
+}
+
+.button {
+  padding: 1rem 0;
+  color: #272a31;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-family: "Cocogoose";
+  font-weight: 50;
+  border: 2px solid #d3d3d3;
+  margin: 25px 15px;
+}
+
+.button span {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.button i {
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.d-none {
+  display: none;
+}
+
+/* Partners */
+
+.partners {
+  background-image: url(./assets/Images/blackbg.png);
+  text-align: center;
+}
+
+.partners h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 25px;
+  padding: 50px 0 10px 0;
+}
+
+.brandlogos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 45px 0;
+
+}
+
+.brandlogos img {
+  width: 110px; 
+}
+
+.waiver {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.waiver img {
+  width: 80px;
+  height: auto;
+}
+
+.waiver h3 {
+  font-family: "Lato";
+  color: #b3b3b3;
 }
 
 @media only screen and (min-width: 768px) {
