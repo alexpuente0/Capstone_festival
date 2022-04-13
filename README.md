@@ -33,8 +33,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+> Special Thanks to:
+
 - [Cindy Shin](https://www.behance.net/adagio07) for the original design
 - Microverse for the Readme Template
+- The Red Hot Chili Peppers for the inspiration and their music
 
 ## 📝 License
 
