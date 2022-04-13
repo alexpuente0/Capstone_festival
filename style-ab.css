@@ -16,6 +16,10 @@
 
 /* nav bar*/
 
+.toplogo {
+  display: none;
+}
+
 li {
   list-style: none;
 }
@@ -97,6 +101,12 @@ a {
 .nav-menu.active {
   left: 0;
   background-color: #ffffffd8;
+}
+
+.funky {
+  color: #ec5242;
+  border: 2px solid #ec5242;
+  padding: 8px;
 }
 
 /* main page */
@@ -183,7 +193,7 @@ a {
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
-  margin-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .thecd img {
@@ -245,20 +255,126 @@ a {
     cursor: pointer;
   }
 
+  .toplogo {
+    display: flex;
+    z-index: 1;
+  }
+
+  .toplogo img {
+    height: 70px;
+    align-self: center;
+    padding-top: 10px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-family: "Lato";
+    font-weight: 500;
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     gap: 60px;
-    position: fixed;
+    position: relative;
     left: 0;
     top: 0;
     gap: 0;
-    background-color: #ffffff6c;
+    background-color: #fff;
     width: 100%;
     text-align: center;
     transition: 0.3s;
     font-weight: lighter;
+  }
+
+  /* Landing page */
+
+  .landing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./assets/Images/asterisk.png);
+    padding: 100px 150px;
+    margin: 0;
+  }
+
+  .above-header {
+    display: none;
+  }
+
+  .header1 {
+    color: #ec5242;
+    font-family: "Cocogoose";
+    font-size: 1rem;
+    padding-bottom: 80px;
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 800px;
+    align-self: flex-start;
+    padding: 25px 0;
+  }
+
+  .above-h2 {
+    text-align: center;
+    margin: 10px 10px;
+    font-size: medium;
+    padding: 0 100px;
+  }
+
+  .second {
+    color: #272a31;
+    font-family: "Lato";
+    margin: 15px 0;
+    font-size: 20px;
+  }
+
+  .second h2 {
+    color: #272a31;
+    font-family: "Lato";
+    margin-top: 15px;
+    padding-left: 15px;
+    font-size: 50px;
+  }
+
+  /* Past albums */
+
+  .pastcds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 0 180px 50px 180px;
+}
+
+  /* Partners */
+
+  .partners {
+    background-image: url(./assets/Images/blackbg.png);
+    text-align: center;
+  }
+
+  .partners h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 25px;
+    padding: 50px 0 10px 0;
+  }
+
+  .brandlogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 45px 0 60px 0;
+  }
+
+  .brandlogos img {
+    width: 200px;
   }
 }

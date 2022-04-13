@@ -16,6 +16,10 @@
 
 /* nav bar*/
 
+.toplogo {
+  display: none;
+}
+
 li {
   list-style: none;
 }
@@ -97,6 +101,12 @@ a {
 .nav-menu.active {
   left: 0;
   background-color: #ffffffd8;
+}
+
+.funky {
+  color: #ec5242;
+  border: 2px solid #ec5242;
+  padding: 8px;
 }
 
 /* Landing page */
@@ -354,20 +364,184 @@ a {
     cursor: pointer;
   }
 
+  .toplogo {
+    display: flex;
+    z-index: 1;
+  }
+
+  .toplogo img {
+    height: 70px;
+    align-self: center;
+    padding-top: 10px;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-family: "Lato";
+    font-weight: 500;
+  }
+
   .nav-menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     gap: 60px;
-    position: fixed;
+    position: relative;
     left: 0;
     top: 0;
     gap: 0;
-    background-color: #ffffff6c;
+    background-color: #fff;
     width: 100%;
     text-align: center;
     transition: 0.3s;
     font-weight: lighter;
+  }
+
+  /* Landing page */
+
+  .landing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(./assets/Images/asterisk.png);
+    padding: 100px 150px;
+    margin: 0;
+  }
+
+  .above-header {
+    color: #ec5242;
+    font-family: "Lato";
+    font-size: 40px;
+    padding-left: 15px;
+  }
+
+  .header1 {
+    color: #ec5242;
+    font-family: "Cocogoose";
+    font-size: 1rem;
+    padding-left: 15px;
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 800px;
+    align-self: flex-start;
+    padding: 25px 0;
+  }
+
+  .above-h2 {
+    text-align: left;
+    margin: 10px 10px;
+    font-size: medium;
+  }
+
+  .second {
+    color: #272a31;
+    font-family: "Lato";
+    margin-top: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+  }
+
+  /* Program */
+
+  .mainprogram {
+    background-image: url(./assets/Images/blackbg.png);
+    text-align: center;
+  }
+
+  .mainprogram h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 25px;
+    padding: 50px 0 10px 0;
+  }
+
+  .divisionline1 {
+    border: 1px solid #ec5242;
+  }
+
+  .program ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 50px 0;
+    justify-content: center;
+  }
+
+  .program li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff23;
+    width: 150px;
+    height: 180px;
+    padding: 0 25px;
+  }
+
+  .program img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .program h3 {
+    color: #ec5242;
+    font-family: "Cocogoose";
+    font-weight: 50;
+    font-size: 15px;
+    align-items: center;
+  }
+
+  .program p {
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .tickets-btn {
+    background-color: #ec5242;
+    font-family: "Lato";
+    font-weight: 200;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    width: 300px;
+    height: 60px;
+    margin: 35px 0;
+  }
+
+  /* Partners */
+
+  .partners {
+    background-image: url(./assets/Images/blackbg.png);
+    text-align: center;
+  }
+
+  .partners h2 {
+    color: #fff;
+    text-align: center;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 25px;
+    padding: 50px 0 10px 0;
+  }
+
+  .brandlogos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 45px 0 60px 0;
+  }
+
+  .brandlogos img {
+    width: 200px;
   }
 }
