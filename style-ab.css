@@ -167,6 +167,7 @@ a {
   color: #272a31;
   font-family: "Lato";
   text-align: center;
+  background-image: url(./assets/Images/asterisk.png);
 }
 
 .morealbums h2 {
@@ -178,15 +179,15 @@ a {
 }
 
 .pastcds {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 25px;
-  align-content: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
 .thecd img {
-  width: 80%;
+  width: 150px;
   filter: drop-shadow(-10px -10px 2px #46464696);
   transition: all 1s ease-in-out;
 }
@@ -236,4 +237,28 @@ a {
 .waiver h3 {
   font-family: "Lato";
   color: #b3b3b3;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    gap: 0;
+    background-color: #ffffff6c;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    font-weight: lighter;
+  }
 }
