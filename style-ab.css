@@ -236,7 +236,7 @@ a {
 
 /* footer */
 
-.waiver img {
+.wimg {
   width: 80px;
   height: auto;
 }
@@ -284,6 +284,12 @@ a {
     text-align: center;
     transition: 0.3s;
     font-weight: lighter;
+  }
+
+  .nav-item {
+    margin: 12px;
+    font-family: "Cocogoose", sans-serif;
+    font-size: 18px;
   }
 
   /* Landing page */
