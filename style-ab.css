@@ -218,6 +218,11 @@ a {
   text-align: center;
 }
 
+.divisionline1 {
+  width: 100px;
+  margin: auto;
+}
+
 .partners h2 {
   color: #fff;
   text-align: center;
@@ -357,6 +362,11 @@ a {
   .partners {
     background-image: url(./assets/Images/blackbg.png);
     text-align: center;
+  }
+
+  .divisionline1 {
+    width: 100px;
+    margin: auto;
   }
 
   .partners h2 {

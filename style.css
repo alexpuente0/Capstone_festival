@@ -171,9 +171,11 @@ a {
   padding: 50px 0 10px 0;
 }
 
-.divisionline1 {
-  border: 1px solid #ec5242;
-}
+  .divisionline1 {
+    border: 1px solid #ec5242;
+    width: 100px; 
+    margin: auto;
+  }
 
 .program ul {
   display: flex;
@@ -395,10 +397,10 @@ a {
   }
 
   .nav-item {
-  margin: 12px;
-  font-family: "Cocogoose", sans-serif;
-  font-size: 18px;
-}
+    margin: 12px;
+    font-family: "Cocogoose", sans-serif;
+    font-size: 18px;
+  }
 
   /* Landing page */
 
@@ -463,6 +465,8 @@ a {
 
   .divisionline1 {
     border: 1px solid #ec5242;
+    width: 100px; 
+    margin: auto;
   }
 
   .program ul {
