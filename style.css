@@ -171,11 +171,11 @@ a {
   padding: 50px 0 10px 0;
 }
 
-  .divisionline1 {
-    border: 1px solid #ec5242;
-    width: 100px; 
-    margin: auto;
-  }
+.divisionline1 {
+  border: 1px solid #ec5242;
+  width: 100px;
+  margin: auto;
+}
 
 .program ul {
   display: flex;
@@ -465,7 +465,7 @@ a {
 
   .divisionline1 {
     border: 1px solid #ec5242;
-    width: 100px; 
+    width: 100px;
     margin: auto;
   }
 
