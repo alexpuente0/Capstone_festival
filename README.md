@@ -3,7 +3,9 @@
 # Capstone Project #1
 
 > This project is a showcase of the habilities learned during the portal weeks at micorverse.
-> Its centered around a Conference to save the world.
+> Its centered around a Launch Party for the new RHCP album.
+
+![screenshot](./assets/Images/projectshow.jpg)
 
 ## Built With
 
