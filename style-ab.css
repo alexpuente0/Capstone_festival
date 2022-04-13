@@ -62,6 +62,15 @@ a {
   display: block;
 }
 
+.bar {
+  display: block;
+  width: 34px;
+  height: 6px;
+  margin: 6px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+}
+
 .hamburger.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -72,15 +81,6 @@ a {
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-12px) rotate(-45deg);
-}
-
-.bar {
-  display: block;
-  width: 34px;
-  height: 6px;
-  margin: 6px auto;
-  transition: all 0.3s ease-in-out;
-  background-color: #272a31;
 }
 
 .nav-menu {
