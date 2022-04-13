@@ -7,6 +7,12 @@
 
 ![screenshot](./assets/Images/projectshow.jpg)
 
+## Project Deployment
+
+- Watch the project live [here](https://alexpuente0.github.io/Capstone_festival/index.html).
+- Watch a video about the project [here](https://www.loom.com/share/4a11b762435441919e8adde463f0150e).
+
+
 ## Built With
 
 - HTML
