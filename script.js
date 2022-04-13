@@ -8,10 +8,12 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-hamburger.classList.remove("active");
-navMenu.classList.remove("active");
-}))
+document.querySelectorAll(".nav-link").forEach((n) =>
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  })
+);
 
 // speakers
 
@@ -72,6 +74,14 @@ const album7 = {
 };
 
 const album8 = {
+  name: "Mother's Milk",
+  release: "1989",
+  description:
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  featuredImage: "./assets/Images/albumX.jpg",
+};
+
+const album9 = {
   name: "The Uplift Mofo Party Plan",
   release: "1987",
   description:
@@ -79,7 +89,7 @@ const album8 = {
   featuredImage: "./assets/Images/album3.jpg",
 };
 
-const album9 = {
+const album10 = {
   name: "Freaky Styley",
   release: "1985",
   description:
@@ -87,15 +97,27 @@ const album9 = {
   featuredImage: "./assets/Images/album2.jpg",
 };
 
-const album10 = {
+const album11 = {
   name: "The Red Hot Chili Peppers",
   release: "1984",
   description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",    
-  featuredImage: "./assets/Images/album1.jpg"
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  featuredImage: "./assets/Images/album1.jpg",
 };
 
-const albumArray = [album1,album2,album3,album4,album5,album6,album7,album8,album9,album10]
+const albumArray = [
+  album1,
+  album2,
+  album3,
+  album4,
+  album5,
+  album6,
+  album7,
+  album8,
+  album9,
+  album10,
+  album11,
+];
 
 const generateTeam = () => {
   const placeTeam = document.querySelector(".cardscontainer");
@@ -120,54 +142,50 @@ document.addEventListener("DOMContentLoaded", () => {
   generateTeam();
 });
 
-
 // show more or less
 
 const content = document.querySelector(".content");
 const buttonMore = document.querySelector(".button .show-more");
 const buttonLess = document.querySelector(".button .show-less");
 const button = document.querySelector(".button");
-const arrowIcon = document.querySelector(".button .fas")
+const arrowIcon = document.querySelector(".button .fas");
 
 const initial = {
-  showAllContent: true
-}
+  showAllContent: true,
+};
 
-button.addEventListener('click', ()=> {
- const  defaultValue = {
-   element: arrowIcon,
-   currentIcon: 'fa-chevron-down',
-   newIcon: 'fa-chevron-up',
- };
+button.addEventListener("click", () => {
+  const defaultValue = {
+    element: arrowIcon,
+    currentIcon: "fa-chevron-down",
+    newIcon: "fa-chevron-up",
+  };
 
-if(initial.showAllContent){
-  showButton(buttonLess)
-  showButton(buttonMore, false);
-  content.classList.remove('gradient','maxHeight')
-} else {
+  if (initial.showAllContent) {
+    showButton(buttonLess);
+    showButton(buttonMore, false);
+    content.classList.remove("gradient", "maxHeight");
+  } else {
     showButton(buttonLess, false);
     showButton(buttonMore);
 
     defaultValue.currentIcon = "fa-chevron-up";
     defaultValue.newIcon = "fa-chevron-down";
 
-  content.classList.add("gradient", "maxHeight");
-}
+    content.classList.add("gradient", "maxHeight");
+  }
 
-changeIcon(defaultValue);
-initial.showAllContent = !initial.showAllContent;
-
+  changeIcon(defaultValue);
+  initial.showAllContent = !initial.showAllContent;
 });
 
-function changeIcon(value){
-  const {element,currentIcon,newIcon} = value;
+function changeIcon(value) {
+  const { element, currentIcon, newIcon } = value;
 
   element.classList.add(newIcon);
   element.classList.remove(currentIcon);
 }
 
-function showButton(button, visible=true){
-  !visible 
-    ? button.classList.add('d-none')
-    : button.classList.remove('d-none');
+function showButton(button, visible = true) {
+  !visible ? button.classList.add("d-none") : button.classList.remove("d-none");
 }
