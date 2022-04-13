@@ -129,12 +129,12 @@ a {
 }
 
 .above-h2 {
- text-align: center;
- margin: 10px 10px;
+  text-align: center;
+  margin: 10px 10px;
 }
 
 .second {
-   color: #272a31;
+  color: #272a31;
   font-family: "Lato";
   margin-top: 15px;
   padding-left: 15px;
@@ -144,13 +144,13 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   line-height: 40px;
-} 
+}
 
 /* Program */
 
 .mainprogram {
-    background-image: url(./assets/Images/blackbg.png);
-    text-align: center;
+  background-image: url(./assets/Images/blackbg.png);
+  text-align: center;
 }
 
 .mainprogram h2 {
@@ -163,7 +163,7 @@ a {
 }
 
 .divisionline1 {
-   border: 1px solid #ec5242; 
+  border: 1px solid #ec5242;
 }
 
 .program ul {
@@ -207,10 +207,10 @@ a {
 
 .tickets-btn {
   background-color: #ec5242;
-   font-family: "Lato";
+  font-family: "Lato";
   font-weight: 200;
   font-size: 18px;
-  color:#fff;
+  color: #fff;
   border: none;
   width: 300px;
   height: 60px;
@@ -220,11 +220,11 @@ a {
 /* speakers */
 
 .mainspeakers h2 {
-margin: 50px 0 10px 0; 
-text-align: center;
-font-family: "Lato";
-font-weight: 500;
-font-size: 25px;
+  margin: 50px 0 10px 0;
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .cardscontainer {
@@ -238,7 +238,7 @@ font-size: 25px;
 .cardscontainer {
   margin-top: 50px;
 }
-.cardscontainer li{
+.cardscontainer li {
   display: flex;
 }
 
@@ -246,8 +246,8 @@ font-size: 25px;
   width: 90px;
   height: 90px;
   margin-right: 10px;
-  filter: drop-shadow(-10px -10px 2px #d3d3d3 );
-  }
+  filter: drop-shadow(-10px -10px 2px #d3d3d3);
+}
 
 .description h3 {
   font-family: "Lato";
@@ -259,8 +259,8 @@ font-size: 25px;
 }
 
 .description p {
-    font-family: "Lato";
-    font-size: 12px;
+  font-family: "Lato";
+  font-size: 12px;
 }
 
 /* show more or less */
@@ -270,7 +270,7 @@ font-size: 25px;
 }
 
 .content.gradient {
-mask-image: linear-gradient(rgb(114, 114, 114), rgba(255,255,255,0));
+  mask-image: linear-gradient(rgb(114, 114, 114), rgba(255, 255, 255, 0));
 }
 
 .content.maxHeight {
@@ -324,14 +324,14 @@ mask-image: linear-gradient(rgb(114, 114, 114), rgba(255,255,255,0));
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  padding: 45px 0;
-
+  padding: 45px 0 60px 0;
 }
 
 .brandlogos img {
-  width: 110px; 
+  width: 100px;
 }
 
+/* footer */
 .waiver {
   display: flex;
   justify-content: space-around;
