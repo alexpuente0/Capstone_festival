@@ -50,7 +50,7 @@ a {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  padding: 30px 0; 
+  padding: 30px 0;
   transition: 0.3s;
 }
 
@@ -153,16 +153,13 @@ a {
 .newalbum {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .second {
   color: #272a31;
   font-family: "Lato", sans-serif;
   text-align: center;
-}
-
-.newalbum {
-  margin-top: 50px;
 }
 
 .listen img {
@@ -201,6 +198,16 @@ a {
   transition: all 1s ease-in-out;
 }
 
+.waiver {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.brandlogos img {
+  width: 100px;
+}
+
 .pastcds img:hover {
   transform: scale(1.1);
 }
@@ -227,16 +234,7 @@ a {
   padding: 45px 0 60px 0;
 }
 
-.brandlogos img {
-  width: 100px;
-}
-
 /* footer */
-.waiver {
-  display: flex;
-  justify-content: space-around;
-  margin: 50px 0;
-}
 
 .waiver img {
   width: 80px;
@@ -281,7 +279,6 @@ a {
     position: relative;
     left: 0;
     top: 0;
-   
     background-color: #fff;
     width: 100%;
     text-align: center;
@@ -309,7 +306,6 @@ a {
     font-family: "Cocogoose", sans-serif;
     font-size: 1rem;
     padding-bottom: 80px;
-    font-size: 20px;
   }
 
   .logo {
