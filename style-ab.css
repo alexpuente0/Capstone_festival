@@ -41,9 +41,17 @@ a {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 60px;
+  position: absolute;
+  left: -100%;
+  top: 70px;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0; 
+  transition: 0.3s;
 }
 
 .nav-logo {
@@ -81,17 +89,6 @@ a {
 
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-12px) rotate(-45deg);
-}
-
-.nav-menu {
-  position: absolute;
-  left: -100%;
-  top: 70px;
-  gap: 0;
-  flex-direction: column;
-  width: 100%;
-  text-align: center;
-  transition: 0.3s;
 }
 
 .nav-item {
