@@ -344,12 +344,12 @@ a {
   /* Past albums */
 
   .pastcds {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
-  padding: 0 180px 50px 180px;
-}
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 0 150px 50px 150px;
+  }
 
   /* Partners */
 
