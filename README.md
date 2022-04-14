@@ -3,7 +3,14 @@
 # Capstone Project #1
 
 > This project is a showcase of the habilities learned during the portal weeks at micorverse.
-> Its centered around a Conference to save the world.
+> Its centered around a Launch Party for the new RHCP album.
+
+![screenshot](./assets/Images/projectshow.jpg)
+
+## Project Deployment
+
+- Watch the project live [here](https://alexpuente0.github.io/Capstone_festival/index.html).
+- Watch a video about the project [here](https://www.loom.com/share/4a11b762435441919e8adde463f0150e).
 
 ## Built With
 
@@ -31,8 +38,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+> Special Thanks to:
+
 - [Cindy Shin](https://www.behance.net/adagio07) for the original design
 - Microverse for the Readme Template
+- The Red Hot Chili Peppers for the inspiration and their music
 
 ## 📝 License
 
