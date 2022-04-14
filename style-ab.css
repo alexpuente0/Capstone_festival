@@ -16,6 +16,10 @@
 
 /* nav bar */
 
+.verytop {
+  display: none;
+}
+
 .toplogo {
   display: none;
 }
@@ -160,11 +164,23 @@ a {
   color: #272a31;
   font-family: "Lato", sans-serif;
   text-align: center;
+  padding-bottom: 10px;
+}
+
+.secondp {
+  font-family: "Lato", sans-serif;
+  padding: 15px 0 50px 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.listen {
+  align-self: center;
 }
 
 .listen img {
-  width: 100%;
-  margin: 15px 0;
+  width: 200px;
+  margin: 15px 0 75px 0;
 }
 
 /* more albums */
@@ -180,8 +196,9 @@ a {
   padding: 25px 0 10px 0;
 }
 
-.morealbums p {
-  padding: 15px 0 25px 0;
+.morep {
+  padding: 15px 0 50px 0;
+  font-size: 15px;
 }
 
 .pastcds {
@@ -189,13 +206,37 @@ a {
   flex-wrap: wrap;
   gap: 25px;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
-.thecd img {
-  width: 150px;
-  filter: drop-shadow(-10px -10px 2px #46464696);
+.thecd p {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  filter: drop-shadow(-5px -5px 5px #46464696);
+  width: 250px;
+  height: 150px;
   transition: all 1s ease-in-out;
+}
+
+.link1 {
+  color: #fff;
+  font-family: "Cocogoose", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #cc27119c, #ec5342ab),
+    url(./assets/Images/buyalbums.jpg);
+  background-size: cover;
+}
+
+.link2 {
+  color: #fff;
+  font-family: "Cocogoose", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  background: linear-gradient(to bottom, #cc27119c, #ec5342ab),
+    url(./assets/Images/officialsite.jpg);
+  background-size: cover;
 }
 
 .waiver {
@@ -208,7 +249,11 @@ a {
   width: 100px;
 }
 
-.pastcds img:hover {
+.link1:hover {
+  transform: scale(1.1);
+}
+
+.link2:hover {
   transform: scale(1.1);
 }
 
@@ -221,6 +266,7 @@ a {
 .divisionline1 {
   width: 100px;
   margin: auto;
+  border: 1px solid #ec5242;
 }
 
 .partners h2 {
@@ -255,6 +301,26 @@ a {
   .hamburger {
     display: none;
     cursor: pointer;
+  }
+
+  .verytop {
+    display: flex;
+    background-color: #272a31;
+    height: 25px;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .verytop p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    color: #fff;
+    padding-right: 40px;
+  }
+
+  .vtoplogo {
+    height: 15px;
+    padding-right: 25px;
   }
 
   .toplogo {
@@ -321,7 +387,7 @@ a {
 
   .logo {
     width: 800px;
-    align-self: flex-start;
+    align-self: center;
     padding: 25px 0;
   }
 
@@ -354,12 +420,13 @@ a {
     flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
-    padding: 0 150px 50px 150px;
+    padding: 0 150px 100px 150px;
   }
 
   /* Partners */
 
   .partners {
+    display: none;
     background-image: url(./assets/Images/blackbg.png);
     text-align: center;
   }
@@ -387,5 +454,24 @@ a {
 
   .brandlogos img {
     width: 200px;
+  }
+
+  /* footer */
+
+  .waiver {
+    background-color: #272a31;
+    margin: 0;
+    padding: 50px 0;
+  }
+
+  .wimg {
+    width: 80px;
+    height: auto;
+    filter: brightness(0) invert(1);
+  }
+
+  .waiver h3 {
+    font-family: "Lato", sans-serif;
+    color: #b3b3b3;
   }
 }
