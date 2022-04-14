@@ -224,8 +224,7 @@ a {
   font-family: "Cocogoose", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  background: linear-gradient(to bottom, #cc27119c, #ec5342ab),
-    url(./assets/Images/buyalbums.jpg);
+  background: linear-gradient(to bottom, #cc27119c, #ec5342ab), url(./assets/Images/buyalbums.jpg);
   background-size: cover;
 }
 
@@ -234,8 +233,7 @@ a {
   font-family: "Cocogoose", sans-serif;
   font-size: 25px;
   font-weight: 700;
-  background: linear-gradient(to bottom, #cc27119c, #ec5342ab),
-    url(./assets/Images/officialsite.jpg);
+  background: linear-gradient(to bottom, #cc27119c, #ec5342ab), url(./assets/Images/officialsite.jpg);
   background-size: cover;
 }
 
